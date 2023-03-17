@@ -27,5 +27,4 @@ BEGIN
 -- If a booking with the same date and table number was found then rollup otherwise commit.
         END //
 DELIMITER ;
-
         
