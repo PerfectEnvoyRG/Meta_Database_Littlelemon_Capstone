@@ -13,4 +13,5 @@ END//
 
 DELIMITER ;
 
+
 -- Call Procedure UpdateBooking(10, "2023-03-12");
