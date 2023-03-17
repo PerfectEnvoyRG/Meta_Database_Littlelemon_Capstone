@@ -10,5 +10,6 @@ CREATE PROCEDURE GetOrderDetail(IN CustomerID INT)
     FROM orders
     WHERE customer_id = CustomerID;
 
+
 SET @id = 1;
 CALL GetOrderDetail(@id);
