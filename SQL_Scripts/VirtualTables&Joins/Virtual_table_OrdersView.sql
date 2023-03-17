@@ -4,3 +4,4 @@ CREATE VIEW OrderView AS
 		SELECT order_id, quantity, total_cost
         FROM orders
         WHERE quantity > 2;
+	
